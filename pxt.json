@@ -1,0 +1,27 @@
+{
+    "name": "Secure Moss",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Webcam-ext": "github:ramimsft/webcam-ext#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.8.20",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
